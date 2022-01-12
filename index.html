@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+  <head> 
+                  <!-- link for css -->
+        <link rel="stylesheet" type="text/css" href="./style.css"/>
+                   <!-- Meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Techsnap Blog</title>
+                    <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+ </head>
+  <body>
+    <p id="logo">TechSnap Blog</p>
+          <!-- main-container -->
+    <div class="main-container">
+             <!-- head-container -->
+        <div class="head-container">
+                  <!-- main-image -->
+            <div class="first-card">
+                <div class="head-img">
+                    <img src="./images/image3.png" alt="" id="head-img"/>
+                </div>
+                <div class="head-para">
+                    <p id="head-para">How to Start a Blog in 2022: The Ultimate Guide</p>
+                </div>
+            </div>
+                 <!-- read-more section -->
+            <div class="read-more">
+               <p>Read More ></p>
+            </div>
+                 <!-- search box -->
+            <div class="search">
+                <div class="search-align">
+                    <img src="./images/search-interface-symbol 2.png" alt=""/>
+                    <input type="text" placeholder="Type to Search" />
+                </div>
+               </div>
+        </div>
+           <!-- grid-container for all blogs -->
+        <div class="grid-container">
+                  <!-- single reusable card -->
+             <div class="card">
+                 <!-- image -->
+                <div class="card-img">
+                    <img src="./images/image11.webp" alt="blog" />
+                </div>
+                <!-- date -->
+                <div class="date">
+                    <p>DECEMBER 30, 2021</p>
+                 <img src="./images/more 1.png" alt="menu" />
+                 </div>
+                     <!-- text in blog -->
+                 <div class="card-text">
+                   <p>How to Build a Website From Scratch in 10 Simple Steps a day ago</p>
+                 </div>
+            </div>
+       </div> 
+             <!-- pagination part -->
+        <div class="pagination">
+                   <!-- buttons for switching to other pages -->
+            <div class="page-buttons">
+                <button onclick="loadOnClick(0)"><<</button>
+                <button onclick="loadOnClick(0)"><</button>
+                <button onclick="loadOnClick(1)">1</button>
+                <button onclick="loadOnClick(2)">2</button>
+                <button onclick="loadOnClick(3)">3</button>
+                <button onclick="loadOnClick(4)">4</button>
+                <button onclick="loadOnClick(5)">5</button>
+                <button onclick="loadOnClick(6)">6</button>
+                <button onclick="loadOnClick(7)">7</button>
+                <button onclick="loadOnClick(8)">8</button>
+                <button onclick="loadOnClick(9)">9</button>
+                <button onclick="loadOnClick(0)">>></button>
+                <button onclick="loadOnClick(0)">></button>
+            </div>
+        </div>
+    </div>
+       
+    <script src="./app.js"></script>
+  </body>
+</html>
