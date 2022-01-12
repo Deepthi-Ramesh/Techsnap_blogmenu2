@@ -110,7 +110,7 @@ body{
         grid-column-gap: 5%; 
     }
     .grid-container .card {
-        width: 100%;
+        width: 98%;
         border-radius: 1rem;
         border: 0.1px solid  rgb(151, 146, 146);
         box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1);
@@ -166,7 +166,7 @@ body{
         line-height: 1.5rem;
     }
     .read-more p{
-        width: 15%;
+        width: 20%;
         margin-left: 3rem;
         padding: 0.5rem;
         font-size: 1.6rem;
